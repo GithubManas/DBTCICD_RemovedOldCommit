@@ -42,10 +42,10 @@ def filterDeployableModels(listof_committed_files):
 
     for mdl in listof_committed_files:
         if 'models/' in mdl:
-            with open(mdl, 'r') as fl:
-                fl_content = fl.read()
-                if ('persistent_table' in fl_content):
-                    deployable_models_list.append(mdl)
+#            with open(mdl, 'r') as fl:
+#                fl_content = fl.read()
+#                if ('persistent_table' in fl_content):
+            deployable_models_list.append(mdl)
 
     return deployable_models_list;
 

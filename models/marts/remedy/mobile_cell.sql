@@ -7,6 +7,7 @@ mobile_cell as (
 
     select 
              [Cell Id],
+             '' test1,
              [Site Id] ,
              Name  as [Cell Name] ,
              Status as [Cell Status],
